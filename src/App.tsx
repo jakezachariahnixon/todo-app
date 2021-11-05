@@ -1,7 +1,15 @@
 import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import Routes from "./Routes";
 
 function App() {
-  return <h1>Todo List App</h1>;
+  return (
+    <React.StrictMode>
+      <Router>
+        <Routes />
+      </Router>
+    </React.StrictMode>
+  );
 }
 
 export default App;
