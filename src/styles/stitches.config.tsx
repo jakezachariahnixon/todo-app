@@ -58,19 +58,47 @@ export const {
       red900: "#7F1D1D",
     },
     space: {},
-    fonts: {},
+    fonts: {
+      mainFont: '"IBM Plex Sans", sans-serif',
+    },
     fontSizes: {},
-    fontWeights: {},
+    fontWeights: {
+      light: "100",
+      standard: "300",
+      bold: "500",
+    },
     lineHeights: {},
     letterSpacings: {},
     sizes: {},
     borderWidths: {},
     borderStyles: {},
-    radii: {},
+    radii: {
+      rounded: "5px",
+    },
     shadows: {},
     zIndices: {},
     transitions: {},
   },
   media: {},
-  utils: {},
+  utils: {
+    px: (value: any) => ({
+      paddingLeft: value,
+      paddingRight: value,
+    }),
+    py: (value: any) => ({
+      paddingTop: value,
+      paddingBottom: value,
+    }),
+  },
+});
+
+globalCss({
+  "@font-face": {
+    fontFamily: "IBM Plex Sans",
+    src:
+      "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap",
+  },
+  body: {
+    margin: 0,
+  },
 });
