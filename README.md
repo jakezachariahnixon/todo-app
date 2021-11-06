@@ -19,3 +19,7 @@ You can then start the frontend using:
 You can also see the Storybook of frontend components using:
 
 `npm run storybook`
+
+## UX / UI Design
+
+The designs can be found on Figma here: https://www.figma.com/file/x995jwsHZtMlKND63EodmO/Todo-App?node-id=0%3A1
