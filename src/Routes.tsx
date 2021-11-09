@@ -8,7 +8,7 @@ const Routes = () => {
       <Suspense fallback={<p>Loading...</p>}>
         <Switch>
           <Route path="/">
-            <Sidebar />
+            <p>Todo App</p>
           </Route>
         </Switch>
       </Suspense>
