@@ -1,6 +1,5 @@
 import React from "react";
 import { styled } from "../../styles/stitches.config";
-import {UserDetails} from './UserDetails';
 
 /* eslint-disable-next-line */
 export interface SidebarProps {}
@@ -13,6 +12,5 @@ const StyledSidebar = styled("div", {
 
 export function Sidebar() {
   return <StyledSidebar>
-    <UserDetails name = 'Jake Nixon'/>
   </StyledSidebar>;
 }

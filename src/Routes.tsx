@@ -1,6 +1,5 @@
 import React, { Suspense } from "react";
 import { Route, Switch } from "react-router-dom";
-import { Sidebar } from './components/Sidebar';
 
 const Routes = () => {
   return (
