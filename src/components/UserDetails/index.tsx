@@ -2,6 +2,10 @@ import React from "react";
 import { styled } from "../../styles/stitches.config";
 import userIcon from './img/userIcon.png';
 
+export interface UserDetailProps {
+    
+}
+
 const StyledUserDetail = styled("div", {
     padding: '19px',
     height: '60px',
