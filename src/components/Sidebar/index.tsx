@@ -5,11 +5,12 @@ import { styled } from "../../styles/stitches.config";
 export interface SidebarProps {}
 
 const StyledSidebar = styled("div", {
-  height: "100%",
-  width: "260px",
-  backgroundColor: "$gray800",
+    height: "100%",
+    width: "260px",
+    backgroundColor: "$gray800",
 });
 
 export function Sidebar() {
-  return <StyledSidebar></StyledSidebar>;
+  return <StyledSidebar>
+  </StyledSidebar>;
 }

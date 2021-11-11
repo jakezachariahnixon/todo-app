@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserDetails renders correctly 1`] = `
+<div
+  className="c-icCVoz"
+>
+  <div
+    className="c-RUvTe"
+  >
+    <img
+      alt="avatar"
+      src="userIcon.png"
+      style={
+        Object {
+          "height": "80%",
+          "width": "80%",
+        }
+      }
+    />
+  </div>
+  <span>
+    Jake Nixon
+  </span>
+</div>
+`;
