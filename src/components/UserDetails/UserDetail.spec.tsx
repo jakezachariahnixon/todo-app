@@ -8,6 +8,6 @@ describe("UserDetails", () => {
       const tree = renderer.create(<UserDetails></UserDetails>).toJSON();
       expect(tree).toMatchSnapshot();
     });
-  });
+});
   
-  afterEach(cleanup);
+afterEach(cleanup);

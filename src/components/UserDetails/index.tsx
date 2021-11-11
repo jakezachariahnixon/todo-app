@@ -37,7 +37,7 @@ export function UserDetails() {
             <img style = {{
                 height: '80%',
                 width: '80%',
-            }} src = {userIcon}></img>
+            }} alt = 'avatar' src = {userIcon}></img>
         </StyledAvatar>
         <span>Jake Nixon</span>
     </StyledUserDetail>;

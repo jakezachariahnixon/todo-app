@@ -8,6 +8,7 @@ exports[`UserDetails renders correctly 1`] = `
     className="c-RUvTe"
   >
     <img
+      alt="avatar"
       src="userIcon.png"
       style={
         Object {
